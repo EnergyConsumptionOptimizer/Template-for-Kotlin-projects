@@ -42,3 +42,9 @@ node_modules/
 # Proguard and NDK
 proguard-rules.pro
 ndkBuild/
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
