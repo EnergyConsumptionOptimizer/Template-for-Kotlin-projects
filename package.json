@@ -1,7 +1,7 @@
 {
   "name": "template-for-kotlin-projects",
   "devDependencies": {
-    "semantic-release": "25.0.0",
+    "semantic-release": "25.0.1",
     "semantic-release-preconfigured-conventional-commits": "1.1.149"
   },
   "engines": {
