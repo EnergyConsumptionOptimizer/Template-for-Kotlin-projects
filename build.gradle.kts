@@ -44,6 +44,16 @@ tasks.named<Test>("test") {
     useJUnitPlatform()
 }
 
+tasks.register("lint") {
+    group = "quality"
+    dependsOn("detekt")
+}
+
+tasks.register("checkFormat") {
+    group = "quality"
+    dependsOn("ktlintCheck")
+}
+
 tasks.named("build") {
     dependsOn("ktlintFormat", "detekt", "test")
 }
