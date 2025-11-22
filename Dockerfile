@@ -9,7 +9,7 @@ COPY . .
 RUN gradle build --no-daemon
 
 # Stage 2: Runtime with slim JDK
-FROM eclipse-temurin:22
+FROM eclipse-temurin:23
 WORKDIR /app
 
 COPY --from=builder /usr/src/app/build/libs/*.jar app.jar
