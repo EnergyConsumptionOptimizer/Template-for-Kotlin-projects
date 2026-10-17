@@ -23,7 +23,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v6
         with:
-          java-version: "24.0.2+12"
+          java-version: "27.0.0+35"
           distribution: "temurin"
           cache: gradle
 
@@ -58,7 +58,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v6
         with:
-          java-version: "24.0.2+12"
+          java-version: "27.0.0+35"
           distribution: "temurin"
           cache: gradle
 
